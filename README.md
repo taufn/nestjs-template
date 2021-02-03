@@ -15,6 +15,7 @@ Existing:
 
 Future plan:
 
+-   [ ] RabbitMQ services.
 -   [ ] Run integration and end-to-end tests inside Docker, to ensure tests closely reflect the real world situation.
 -   [ ] Dockerfile to build an image for the app.
 -   [ ] Pipeline template for GitLab.
@@ -55,7 +56,8 @@ On Mac you can generate `JWT_SECRET` using `openssl rand -base64 32`. With `32` 
 
 *TODO:*
 
--   Update docs with hexagonal architecture.
--   Update docs with module dependencies.
+-   Explain hexagonal architecture.
+-   Explain module dependencies.
+-   Explain creating various apps from single code base.
 -   Explain naming convention (and other conventions).
 -   ...
