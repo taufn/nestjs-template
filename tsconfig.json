@@ -16,5 +16,5 @@
     "sourceMap": true,
     "target": "es2017"
   },
-  "include": ["src", "tests"]
+  "include": ["./src/**/*", "./tests/**/*"]
 }
