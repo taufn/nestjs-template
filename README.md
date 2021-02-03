@@ -33,7 +33,7 @@ Using `git`.
 
 Using [degit](https://github.com/Rich-Harris/degit).
 
--   `degit [git@github.com:taufn/nestjs-template.git]`.
+-   `degit git@github.com:taufn/nestjs-template.git`.
 -   You can then `cd to/the/app` and `git init` a new repo.
 
 ## Setting Up
