@@ -46,16 +46,6 @@ Using [degit](https://github.com/Rich-Harris/degit).
     -   `cp ./config/env/.env.example ./.env`.
     -   Update variables as necessary.
 
-### ~~ESLint in VSCode~~
-
-~~At this point, VSCode is not going to pick up your new `.ts` file automatically. To solve this, perform the following steps.~~
-
--   ~~Copy the content of `.eslintrc.json` to a new file. No need to save it as it will be temporary.~~
--   ~~Run `yarn eslint --init`.~~
--   ~~Answer the prompted questions accordingly.~~
-    -   ~~Answer `No` **when asked about installing the dependencies**.~~
--   ~~Put back the content of `.eslintrc.json` above.~~
-
 ### JWT
 
 Generate a random string for your JWT secret. It's fine to use any random string for development or test environment. But use stronger, generated string on live envs.
