@@ -1,0 +1,6 @@
+{
+  "{src,tests}/**/*.{tsx,ts,jsx,js,json}": [
+    "eslint --fix",
+    "yarn format"
+  ]
+}

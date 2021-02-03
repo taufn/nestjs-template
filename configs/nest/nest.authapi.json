@@ -1,0 +1,4 @@
+{
+  "collection": "@nestjs/schematics",
+  "entryFile": "application/authapi/main"
+}
