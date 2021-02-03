@@ -3,7 +3,7 @@ import * as path from "path";
 
 import "~/global";
 import { fileReader } from "../fileReader";
-import { FileNotFoundException } from "~/utils/exceptions";
+import { FileNotFoundException } from "~/domain/common/exceptions";
 
 // !IMPORTANT
 // to be safe, use `mock[Operation]Once()` on `path` and `fs` as both module is

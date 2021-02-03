@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 
 import "~/global";
-import { FileNotFoundException } from "../exceptions";
+import { FileNotFoundException } from "~/domain/common/exceptions";
 
 export class Env {
   public static getEnv(): string {
