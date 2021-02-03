@@ -14,4 +14,4 @@ import { rabbitConfig } from "~/utils/functions";
     ...services,
   ],
 })
-export class MessageModule {}
+export class MessagePublisherModule {}
